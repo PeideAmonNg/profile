@@ -3,14 +3,14 @@ title: amon ng
 github:
   is_project_page: false
 user_contact_info:
-  - github:
+  github:
     label: "github"
     value: "github.com/PeideAmonNg"
     is_link: true
     link_href: "https://github.com/PeideAmonNg"
-  - email:
+  email:
     label: "email"
     value: "peide.amon.ng@gmail.com"
-  - phone_number:
+  phone_number:
     label: "phone number"
     value: "021-0472223"
