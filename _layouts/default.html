@@ -21,15 +21,21 @@
         {% endif %}
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
-
+        
+        <table>
         {% for contact_item in site.user_contact_info %}
-          {{ contact_item[1].label }}: 
-          {% if contact_item[1].is_link %}
-            <a href="{{ contact_item[1].link_href }}"> {{ contact_item[1].value }} </a>
-          {% else %}
-            {{ contact_item[1].value }}
-          {% endif %}
+          <tr>
+            <td> {{ contact_item[1].label }}: </td>
+            <td>
+              {% if contact_item[1].is_link %}
+                <a href="{{ contact_item[1].link_href }}"> {{ contact_item[1].value }} </a>
+              {% else %}
+                {{ contact_item[1].value }}
+              {% endif %}
+            </td>
+          </tr>
         {% endfor %}
+        </table>
 
         {% if site.github.is_user_page %}
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
