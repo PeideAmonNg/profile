@@ -23,11 +23,11 @@
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
         {% for contact_item in site.user_contact_info %}
-          {{ contact_item.label }}: 
-          {% if contact_item.is_link %}
-            <a href="{{ contact_item.link_href }}"> {{ contact_item.value }} </a>
+          {{ contact_item[1].label }}: 
+          {% if contact_item[1].is_link %}
+            <a href="{{ contact_item[1].link_href }}"> {{ contact_item[1].value }} </a>
           (% else %}
-            {{ contact_item.value }}
+            {{ contact_item[1].value }}
           {% endif %}
         {% endfor %}
 
