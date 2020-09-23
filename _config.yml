@@ -6,6 +6,8 @@ user_contact_info:
   github:
     label: "github"
     value: "github.com/PeideAmonNg"
+    is_link: true
+    link_href: "https://github.com/PeideAmonNg"
   email:
     label: "email"
     value: "peide.amon.ng@gmail.com"
