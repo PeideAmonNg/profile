@@ -11,6 +11,6 @@ user_contact_info:
   email:
     label: "email"
     value: "peide.amon.ng@gmail.com"
-  phone_number:
-    label: "phone number"
+  mobile:
+    label: "mobile"
     value: "021-0472223"
