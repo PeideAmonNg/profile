@@ -26,7 +26,7 @@
           {{ contact_item[1][1].label }}: 
           {% if contact_item[1][1].is_link %}
             <a href="{{ contact_item[1][1].link_href }}"> {{ contact_item[1][1].value }} </a>
-          (% else %}
+          {% else %}
             {{ contact_item[1][1].value }}
           {% endif %}
         {% endfor %}
