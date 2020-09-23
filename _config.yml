@@ -15,3 +15,10 @@ user_contact_info:
   mobile:
     label: "mobile"
     value: "021-0472223"
+tech_knowledge:
+  - JavaScript, AngularJS, Express, MongoDB
+  - PHP, SilverStripe, MySQL
+  - Version control, Git
+  - Unit testing & E2E testing
+  - Build and deploy automation, Jenkins, AWS
+  - Security, OWASP
