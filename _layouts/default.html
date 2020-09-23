@@ -36,6 +36,16 @@
           </tr>
         {% endfor %}
         </table>
+        
+        <table>
+        {% for tech_item in site.tech_knowledge %}
+          <tr>
+            <td>
+              {{ tech_item }}
+            </td>
+          </tr>
+        {% endfor %}
+        </table>
 
         {% if site.github.is_user_page %}
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
